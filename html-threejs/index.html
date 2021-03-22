@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="static/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="static/styles/main.css">
+  <title>Project 3 - Tyler D Clark</title>
+</head>
+
+<body>
+
+
+  
+  <!--Canvas to draw on-->
+
+  <div id="canvas-holder">
+    <canvas id="glcanvas" width="640" height="480"></canvas>
+    </div>
+
+  <!-- Information modal -->
+  <a id="open-modal-btn" class="float">
+    <i class="icon-float material-icons">menu</i>
+  </a>
+  <div id="info-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal-btn">&times;</span>
+      <!--TODO: populate this with helpful information-->
+      <p>Pick shapes</p>
+      <p><label><input type="checkbox" id="cylinderCb">Cylinder</label></p>
+      <p><label><input type="checkbox" id="coneCb">Cone</label></p>
+      <p><label><input type="checkbox" id="torusCb">Torus</label></p>
+      <p><label><input type="checkbox" id="sphereCb">Sphere</label></p>
+      <p><label><input type="checkbox" id="cubeCb">Cube</label></p>
+      <p><label><input type="checkbox" id="ringCb">Ring</label></p>
+      <p>Spin them around!</p>
+      <p><label><input type="checkbox" id="animate">Animate</label>
+      </p>
+      
+    </div>
+  </div>
+  <!-- End information modal -->
+
+  <script src="public/bundle.js"></script>
+</body>
+
+</html>
